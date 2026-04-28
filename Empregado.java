@@ -8,4 +8,12 @@ public abstract class Empregado extends Object{
         this.nome = nome;
     }
     public abstract double calcularSalario();
+
+    @Override
+    public String toString() {
+        return "Empregado{" +
+                "matricula=" + matricula +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
 }
